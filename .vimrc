@@ -23,7 +23,10 @@ Plug 'preservim/nerdtree'
 Plug 'https://github.com/ap/vim-css-color'
 Plug 'noahfrederick/vim-skeleton'
 Plug 'mattn/emmet-vim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 call plug#end()
+
 
 
 " Enable auto completion menu after pressing TAB.
