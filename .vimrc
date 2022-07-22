@@ -11,7 +11,7 @@ filetype plugin on
 filetype indent on
 
 " Add numbers to each line on the left-hand side.
-set number
+set relativenumber
 
 " Highlight cursor line underneath the cursor horizontally.
 set cursorline
