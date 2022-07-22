@@ -10,8 +10,11 @@ filetype plugin on
 " Load an indent file for the detected file type.
 filetype indent on
 
-" Add numbers to each line on the left-hand side.
+" Add relative numbers to each line on the left-hand side.
 set relativenumber
+
+" Show current line number overall on the left-hand side.
+set nu
 
 " Highlight cursor line underneath the cursor horizontally.
 set cursorline
