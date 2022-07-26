@@ -19,6 +19,9 @@ set nu
 " Highlight cursor line underneath the cursor horizontally.
 set cursorline
 
+" Enable hidden buffers
+set hidden
+
 " Plugins
 call plug#begin()
 Plug 'vim-airline/vim-airline'
